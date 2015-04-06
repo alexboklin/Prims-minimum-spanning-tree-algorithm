@@ -11,7 +11,6 @@ def main():
 
     parser = argparse.ArgumentParser(description="Implements Prim's minimum spanning tree algorithm.")
     parser.add_argument("-s", help="the structure of the MST", action="store_true")
-    parser.add_argument("-c", help="the overall cost of the MST", action="store_true")
     parser.add_argument("-t", help="execution time", action="store_true")
     parser.add_argument("filename", help=".txt file to parse")
     args = parser.parse_args()
