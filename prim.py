@@ -1,3 +1,5 @@
+# Python 3.4.2
+
 import heapq
 import operator
 import time
